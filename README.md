@@ -1,9 +1,9 @@
 # Projeto de Pipeline de Engenharia de Dados: Fusão de Empresas
 
 Visão Geral do Projeto
-Este projeto simula a fusão de duas grandes empresas, cada uma com bases de dados separadas e estruturas diferentes. O objetivo é construir um pipeline de dados que extrai, transforma e carrega os dados dessas duas fontes para gerar relatórios de análise da fusão, como analisar o impacto nas vendas: aumentaram, diminuíram ou estão concentradas em uma das empresas?
+Este projeto simula a fusão de duas grandes empresas, cada uma com bases de dados separadas e estruturas diferentes. O objetivo principal é construir um pipeline de dados que extrai, transforma e carrega os dados dessas duas fontes, permitindo a geração de relatórios para análise do impacto da fusão, como avaliar o comportamento das vendas: aumentaram, diminuíram ou estão concentradas em uma das empresas?
 
-O pipeline de dados será desenvolvido para ser reutilizável, ou seja, ele poderá ser facilmente adaptado para a geração de relatórios nos meses seguintes, quando a necessidade de análise desses dados se repetir.
+O pipeline de dados será desenvolvido de forma reutilizável, ou seja, ele poderá ser facilmente adaptado e utilizado novamente nos meses seguintes para atualizar e gerar relatórios sobre a evolução da fusão e do desempenho das vendas.
 
 Detalhes do Projeto
 Contexto
