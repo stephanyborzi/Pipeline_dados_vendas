@@ -50,7 +50,6 @@ Os dados serão armazenados em duas plataformas diferentes, dependendo da estrut
 - **MongoDB Atlas:** Armazenamento de dados NoSQL
 - **PostgreSQL:** Armazenamento de dados SQL
 - **Python:** Desenvolvimento do pipeline ETL
-- **Power BI:** Visualização de dados e relatórios
 
 ## Como Usar
 
