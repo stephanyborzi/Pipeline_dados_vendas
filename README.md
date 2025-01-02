@@ -2,11 +2,7 @@
 
 ## Visão Geral do Projeto
 
-Este projeto simula a fusão de duas grandes empresas, cada uma com bases de dados separadas e estruturas diferentes. O objetivo principal é construir um pipeline de dados que extrai, transforma e carrega os dados dessas duas fontes, permitindo a geração de relatórios para análise do impacto da fusão. O foco da análise será avaliar o comportamento das vendas, respondendo perguntas como:
-
-- **As vendas aumentaram, diminuíram ou estão concentradas em uma das empresas?**
-
-Além disso, será criado um dashboard interativo no **Power BI** para visualizar esses dados.
+Este projeto simula a fusão de duas grandes empresas, cada uma com bases de dados separadas e estruturas diferentes. O objetivo principal é construir um pipeline de dados que extrai, transforma e carrega os dados dessas duas fontes, permitindo a geração de relatórios para análise do impacto da fusão. 
 
 O pipeline de dados será desenvolvido de forma reutilizável, permitindo que seja facilmente adaptado e utilizado nos meses seguintes para atualizar e gerar relatórios sobre a evolução da fusão e do desempenho das vendas.
 
