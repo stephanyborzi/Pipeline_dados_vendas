@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nome_do_pacote
+Version: 0.1.0
+Summary: Uma breve descrição do seu pacote
+Author: Seu Nome
+Author-email: seuemail@example.com
+Requires-Python: >=3.6
+

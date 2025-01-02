@@ -1,0 +1,4 @@
+
+def ola_mundo():
+
+    print("Olá mundo, muito obrigado por aprender algo novo!")

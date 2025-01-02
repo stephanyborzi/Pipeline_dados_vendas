@@ -1,0 +1,1 @@
+from .teste_modulo_1 import ola_mundo

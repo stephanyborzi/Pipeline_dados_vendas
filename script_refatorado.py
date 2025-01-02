@@ -40,18 +40,18 @@ def salvando_dados(dados, path):
         writer = csv.writer(file)
         writer.writerows(dados)
 
-# Caminhos dos arquivos
+
 path_json = 'dados_empresaA (1).json'
 path_csv = 'dados_empresaB (1).csv'
 
-# Extração de dados
+
 dados_empresaA = Dados(path_json, 'json')
 dados_empresaB = Dados(path_csv, 'csv')
 
 print("Colunas JSON:", dados_empresaA.nome_colunas)
 print("Colunas CSV:", dados_empresaB.nome_colunas)
 
-# Transformação de dados
+
 key_mapping = {
     'Nome do Item': 'Nome do Produto',
     'Classificação do Produto': 'Categoria do Produto',
@@ -64,13 +64,13 @@ key_mapping = {
 dados_empresaB.rename_columns(key_mapping)
 print("Colunas renomeadas CSV:", dados_empresaB.nome_colunas)
 
-# Combinação de dados
+
 dados_fusao = join(dados_empresaA.dados, dados_empresaB.dados)
 nome_colunas_fusao = get_columns(dados_fusao)
 print("Colunas combinadas:", nome_colunas_fusao)
 print("Tamanho da fusão:", size_data(dados_fusao))
 
-# Salvamento dos dados combinados
+
 dados_fusao_tabela = transformando_dados_tabela(dados_fusao, nome_colunas_fusao)
 path_dados_combinados = 'data_processed/dados_combinados.csv'
 salvando_dados(dados_fusao_tabela, path_dados_combinados)
