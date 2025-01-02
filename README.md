@@ -8,8 +8,10 @@ Além disso, será criado um dashboard interativo no Power BI para visualizar es
 
 O pipeline de dados será desenvolvido de forma reutilizável, permitindo que seja facilmente adaptado e utilizado nos meses seguintes para atualizar e gerar relatórios sobre a evolução da fusão e do desempenho das vendas.
 
-Detalhes do Projeto
-Contexto
+## Detalhes do Projeto
+
+###Contexto
+
 Cenário da fusão: Duas empresas com bases de dados diferentes se fundiram e agora precisam gerar um relatório para entender os resultados dessa fusão.
 Dados das empresas: Cada empresa possui uma estrutura de dados distinta, o que exigirá transformações antes da análise.
 Objetivo: A equipe de Business Intelligence (BI) e Analytics precisa desses dados transformados e integrados para responder perguntas cruciais, como:
@@ -18,7 +20,7 @@ As vendas estão concentradas na Empresa A ou na Empresa B?
 Funções da Equipe de Desenvolvedores de Dados
 A equipe de desenvolvedores de dados será responsável por:
 
-Integrar os dados:
+## Integrar os dados:
 
 Extrair dados das duas bases de dados diferentes (MongoDB Atlas e PostgreSQL).
 Transformar os dados para um formato consistente e carregá-los em uma estrutura unificada.
